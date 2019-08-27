@@ -19,15 +19,16 @@
             <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" android:layout_weight="0">
+                    android:layout_height="match_parent" android:layout_weight="0">
                 <TextView
                         android:id="@+id/todo_list_name"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1" android:text="List Name"
                         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                        android:textSize="24sp" android:textColor="#00B3A6"
-                        android:textIsSelectable="false" android:textStyle="bold" android:gravity="center_vertical"/>
+                        android:textSize="30sp" android:textColor="#00B3A6"
+                        android:textIsSelectable="false" android:textStyle="bold"
+                />
                 <ImageView
                         android:id="@+id/iv_menu"
                         android:layout_width="48dp"
@@ -35,13 +36,6 @@
                         android:src="@drawable/ic_vertical_dot"
                         android:padding="8dp"/>
             </LinearLayout>
-            <TextView
-                    android:text="5 Items"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" android:id="@+id/textView6"
-                    android:layout_weight="1"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-                    android:textColor="#00B3A6"/>
         </LinearLayout>
     </android.support.v7.widget.CardView>
 

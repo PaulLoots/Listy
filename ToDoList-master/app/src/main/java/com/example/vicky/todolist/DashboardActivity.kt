@@ -16,21 +16,37 @@ import android.widget.PopupMenu
 import android.widget.TextView
 import com.example.vicky.todolist.DTO.ToDo
 import kotlinx.android.synthetic.main.activity_dashboard.*
+import kotlin.random.Random
 
 
 class DashboardActivity : AppCompatActivity() {
 
     lateinit var dbHandler: DBHandler
 
+    val quoteArray = arrayOf("'I might get a job cleaning mirrors. It's definitely a job I can see myself doing.'",
+        "'Nothing messes up your Friday like realizing it's only Thursday.'",
+        "'Doing nothing is very hard to do…you never know when you're finished.'",
+        "'If you think your boss is stupid, remember: you wouldn't have a job if he was any smarter.'",
+        "'The best way to appreciate your job is to imagine yourself without one.'",
+        "'People who never do any more than they get paid for, never get paid for any more than they do.'",
+        "'Hard work never killed anybody, but why take a chance?'",
+        "'I always arrive late at the office, but I make up for it by leaving early.'",
+        "'It’s hard to soar like an eagle when you work with turkeys.'",
+        "'By working faithfully eight hours a day you may eventually get to be boss and work twelve hours a day.'",
+        "'Even if you are on the right track, you will get run over if you just sit there.'",
+        "'We pretend to work because they pretend to pay us.'",
+        "'I stress about stress before there’s even stress to stress about.'",
+        "'Stressed is desserts spelled backwards.'",
+        "'This too shall pass. It might pass like a kidney stone, but it will pass.'",
+        "'Any organization is like a septic tank. The really big chunks rise to the top.'")
+
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
-//        setSupportActionBar(dashboard_toolbar)
         title = "Dashboard"
         dbHandler = DBHandler(this)
         rv_dashboard.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
-
-        //recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
 
         fab_dashboard.setOnClickListener {
             val dialog = AlertDialog.Builder(this)
@@ -51,6 +67,9 @@ class DashboardActivity : AppCompatActivity() {
             }
             dialog.show()
         }
+
+        println("Hellooo!")
+        setRandomQuote()
 
     }
 
@@ -75,6 +94,7 @@ class DashboardActivity : AppCompatActivity() {
     }
 
     override fun onResume() {
+        setRandomQuote()
         refreshList()
         super.onResume()
     }
@@ -82,6 +102,13 @@ class DashboardActivity : AppCompatActivity() {
     private fun refreshList(){
         rv_dashboard.adapter = DashboardAdapter(this,dbHandler.getToDos())
     }
+
+    private fun setRandomQuote() {
+        val randomArrayNumber = Random.nextInt(0,quoteArray.count())
+        println(quoteArray[randomArrayNumber])
+        quoteText.text = quoteArray[randomArrayNumber]
+    }
+
 
 
     class DashboardAdapter(val activity: DashboardActivity, val list: MutableList<ToDo>) :
