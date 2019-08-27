@@ -1,26 +1,9 @@
-<!--
-*** Thanks for checking out this README Template. If you have a suggestion that would
-*** make this better, please fork the repo and create a pull request or simply open
-*** an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** PaulLoots, repo, twitter_handle, email
--->
-
-
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
 *** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
 *** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -42,7 +25,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
   
-  <h2 align="center">Listy</h2>
+  <h3 align="center">Listy</h3>
 
   <p align="center">
     Your list taking companion
@@ -114,11 +97,7 @@ git clone https:://github.com/PaulLoots/Listy.git
 gradlew build
 ```
 or
-
 Use `Import Project` in Android Studio.
-
-### Libraries Used
-
 
 
 <!-- USAGE EXAMPLES -->
@@ -130,13 +109,33 @@ Use `Import Project` in Android Studio.
 
 1. Tap on the **plus** fab
 2. Enter the list name and tap **add**
+3. View the newly added list in the lists pane
 
 ### Managing Lists
 
 ![Managing Lists][list-management]
 
 1. Swipe left horisontally to scroll through lists
-2. Enter the list name and tap **add**
+2. Tap in the **three dots** to show list actions
+3. Select an action to perform on the list
+
+### Viewing and Adding List Items
+
+![Viewing and Adding List Items][list-details]
+
+1. Tap on a list to show its items
+2. See all added items of a list
+3. Tap on the **plus** fab
+4. Enter the list item and tap **add**
+5. See the added list item under the list heading
+
+### Performing Actions on List Items
+
+![Performing Actions on List Items][list-item-management]
+
+1. **Edit** or **Delete** a list item by tapping on its corresponding icons
+2. Check items in the list 
+3. Re-arrange list items by dragging the **drag handle**
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -170,9 +169,9 @@ Project Link: [https://github.com/PaulLoots/Listy](https://github.com/PaulLoots/
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* [Android to do list app tutorial](https://hub.packtpub.com/how-to-develop-a-simple-to-do-list-app-tutorial/)
+* [Create SQL database in Android studio](https://dzone.com/articles/create-a-database-android-application-in-android-s)
+* [Recycler View Android studio](https://developer.android.com/guide/topics/ui/layout/recyclerview)
 
 
 
@@ -180,18 +179,18 @@ Project Link: [https://github.com/PaulLoots/Listy](https://github.com/PaulLoots/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/PaulLoots/Listy.svg?style=flat-square
+[contributors-url]: https://github.com/PaulLoots/Listy/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/PaulLoots/Listy.svg?style=flat-square
+[forks-url]: https://github.com/PaulLoots/Listy/network/members
+[stars-shield]: https://img.shields.io/github/stars/PaulLoots/Listy.svg?style=flat-square
+[stars-url]: https://github.com/PaulLoots/Listy/stargazers
+[issues-shield]: https://img.shields.io/github/issues/PaulLoots/Listy.svg?style=flat-square
+[issues-url]: https://github.com/PaulLoots/Listy/issues
+[license-shield]: https://img.shields.io/github/license/PaulLoots/Listy.svg?style=flat-square
+[license-url]: https://github.com/PaulLoots/Listy/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/paullootsdesign
 [product-screenshot]: images/overview.png
 [lists]: images/lists.png
 [list-details]: images/list_details.png
