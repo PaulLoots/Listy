@@ -33,14 +33,16 @@
 
 <!-- PROJECT LOGO -->
 <br />
+<h6 align="center">Paul Loots NAD 303</h6>
+<br />
+<br />
 <p align="center">
-  <h6 align="center">Paul Loots NAD 303</h6>
    
   <a href="https://github.com/PaulLoots/Listy">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
   
-  <h3 align="center">Listy</h3>
+  <h2 align="center">Listy</h2>
 
   <p align="center">
     Your list taking companion
@@ -79,7 +81,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Product Name Screen Shot][product-screenshot]
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
@@ -88,26 +90,18 @@ Here's a blank template to get started:
 
 ### Built With
 
-* []()
-* []()
-* []()
-
+* [Android Studio](https://developer.android.com/studio/)
+* [Kotlin](#kotlin)
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This project uses the Gradle build system. To build this project, use the gradlew build command or use "Import Project" in Android Studio.
-To get a local copy up and running follow these simple steps.
+To get a local copy up and running follow these simple steps. This project uses the Gradle build system.
 
 ### Prerequisites
 
-For development, the latest version of Android Studio is required. The latest version can be downloaded from here.https://developer.android.com/studio/
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+For development, the latest version of Android Studio is required. The latest version can be downloaded from [here](https://developer.android.com/studio/).
 
 ### Installation
  
@@ -115,10 +109,13 @@ npm install npm@latest -g
 ```sh
 git clone https:://github.com/PaulLoots/Listy.git
 ```
-2. Install NPM packages
+2. Build the project
 ```sh
-npm install
+gradlew build
 ```
+or
+
+Use `Import Project` in Android Studio.
 
 ### Libraries Used
 
@@ -127,8 +124,19 @@ npm install
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Adding A List
 
+![Adding A List][lists]
+
+1. Tap on the **plus** fab
+2. Enter the list name and tap **add**
+
+### Managing Lists
+
+![Managing Lists][list-management]
+
+1. Swipe left horisontally to scroll through lists
+2. Enter the list name and tap **add**
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -185,3 +193,7 @@ Project Link: [https://github.com/PaulLoots/Listy](https://github.com/PaulLoots/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/overview.png
+[lists]: images/lists.png
+[list-details]: images/list_details.png
+[list-management]: images/list_management.png
+[list-item-management]: images/list_item_management.png
