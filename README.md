@@ -34,23 +34,25 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/PaulLoots/repo">
+  <h6 align="center">Paul Loots NAD 303</h6>
+   
+  <a href="https://github.com/PaulLoots/Listy">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
-
-  <h3 align="center">YOUR_TITLE</h3>
+  
+  <h3 align="center">Listy</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    Your list taking companion
     <br />
-    <a href="https://github.com/PaulLoots/repo"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/PaulLoots/Listy"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/PaulLoots/repo">View Demo</a>
+    <a href="https://github.com/PaulLoots/Listy">View Demo</a>
     ·
-    <a href="https://github.com/PaulLoots/repo/issues">Report Bug</a>
+    <a href="https://github.com/PaulLoots/Listy/issues">Report Bug</a>
     ·
-    <a href="https://github.com/PaulLoots/repo/issues">Request Feature</a>
+    <a href="https://github.com/PaulLoots/Listy/issues">Request Feature</a>
   </p>
 </p>
 
@@ -64,6 +66,7 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
+  * [Libraries Used](#libraries-used)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
@@ -80,7 +83,7 @@
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`PaulLoots`, `repo`, `twitter_handle`, `email`
+`PaulLoots`, `Listy`, `twitter_handle`, `email`
 
 
 ### Built With
@@ -94,10 +97,12 @@ Here's a blank template to get started:
 <!-- GETTING STARTED -->
 ## Getting Started
 
+This project uses the Gradle build system. To build this project, use the gradlew build command or use "Import Project" in Android Studio.
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
+For development, the latest version of Android Studio is required. The latest version can be downloaded from here.https://developer.android.com/studio/
 This is an example of how to list things you need to use the software and how to install them.
 * npm
 ```sh
@@ -108,12 +113,14 @@ npm install npm@latest -g
  
 1. Clone the repo
 ```sh
-git clone https:://github.com/PaulLoots/repo.git
+git clone https:://github.com/PaulLoots/Listy.git
 ```
 2. Install NPM packages
 ```sh
 npm install
 ```
+
+### Libraries Used
 
 
 
@@ -121,16 +128,6 @@ npm install
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/PaulLoots/repo/issues) for a list of proposed features (and known issues).
-
 
 
 <!-- CONTRIBUTING -->
@@ -158,7 +155,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
 
-Project Link: [https://github.com/PaulLoots/repo](https://github.com/PaulLoots/repo)
+Project Link: [https://github.com/PaulLoots/Listy](https://github.com/PaulLoots/Listy)
 
 
 
@@ -187,4 +184,4 @@ Project Link: [https://github.com/PaulLoots/repo](https://github.com/PaulLoots/r
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/overview.png
