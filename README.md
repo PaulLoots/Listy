@@ -53,7 +53,10 @@
   * [Installation](#installation)
   * [Libraries Used](#libraries-used)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
+   * [Adding A List](#adding-a-list)
+   * [Managing Lists](#managing-lists)
+   * [Viewing and Adding List Items](#viewing-and-adding-list-items)
+   * [Performing Actions on List Items](#performing-actions-on-list-items)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
@@ -66,15 +69,14 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`PaulLoots`, `Listy`, `twitter_handle`, `email`
+List is an Android App dedicated to do one thing: **Create Lists**
+It makes it easy to make and manage lists while providing emotional support with a random work-related quote each time the app is launched.
 
 
 ### Built With
 
 * [Android Studio](https://developer.android.com/studio/)
-* [Kotlin](#kotlin)
+* [Kotlin](https://kotlinlang.org/docs/tutorials/kotlin-for-py/documentation.html)
 
 
 <!-- GETTING STARTED -->
@@ -160,7 +162,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Paul Loots - [@paullootsdesign](https://www.instagram.com/paullootsdesign/) - paulloots@me.com
 
 Project Link: [https://github.com/PaulLoots/Listy](https://github.com/PaulLoots/Listy)
 
@@ -188,7 +190,7 @@ Project Link: [https://github.com/PaulLoots/Listy](https://github.com/PaulLoots/
 [issues-shield]: https://img.shields.io/github/issues/PaulLoots/Listy.svg?style=flat-square
 [issues-url]: https://github.com/PaulLoots/Listy/issues
 [license-shield]: https://img.shields.io/github/license/PaulLoots/Listy.svg?style=flat-square
-[license-url]: https://github.com/PaulLoots/Listy/blob/master/LICENSE.txt
+[license-url]: https://github.com/PaulLoots/Listy/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/paullootsdesign
 [product-screenshot]: images/overview.png
