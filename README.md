@@ -8,8 +8,6 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -190,7 +188,7 @@ Project Link: [https://github.com/PaulLoots/Listy](https://github.com/PaulLoots/
 [issues-shield]: https://img.shields.io/github/issues/PaulLoots/Listy.svg?style=flat-square
 [issues-url]: https://github.com/PaulLoots/Listy/issues
 [license-shield]: https://img.shields.io/github/license/PaulLoots/Listy.svg?style=flat-square
-[license-url]: https://github.com/PaulLoots/Listy/LICENSE.txt
+[license-url]: https://github.com/PaulLoots/Listy/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/paullootsdesign
 [product-screenshot]: images/overview.png
